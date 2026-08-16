@@ -3,8 +3,9 @@ import FrameSequenceCanvas from './FrameSequenceCanvas'
 
 const SecondScene = forwardRef(function SecondScene({ visualRef, frames }, ref) {
   return (
-    <section className="scene scene--second" ref={ref} id="craft">
-      <div className="scene__sticky scene__sticky--second">
+    <section className="scene scene--second" id="craft">
+      <div className="scene__track scene__track--second" ref={ref}>
+        <div className="scene__sticky scene__sticky--second">
         <div className="scene__visual-stack scene__visual-stack--second">
           <FrameSequenceCanvas
             ref={visualRef}
@@ -51,6 +52,7 @@ const SecondScene = forwardRef(function SecondScene({ visualRef, frames }, ref) 
             Request a private pour
           </a>
         </div>
+      </div>
       </div>
 
       <section className="reserve-panel" id="reserve">
