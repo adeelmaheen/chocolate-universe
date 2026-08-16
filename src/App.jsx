@@ -4,6 +4,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import Navbar from './components/Navbar'
 import HeroScene from './components/HeroScene'
 import SecondScene from './components/SecondScene'
+import Footer from './components/Footer'
 import SmoothScroll from './components/SmoothScroll'
 import { buildFramePaths } from './lib/framePaths'
 
@@ -198,6 +199,7 @@ export default function App() {
             frames={secondFrames}
           />
         </main>
+        <Footer />
       </div>
     </SmoothScroll>
   )
