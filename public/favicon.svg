@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f9ddb8" />
+      <stop offset="55%" stop-color="#b56a36" />
+      <stop offset="100%" stop-color="#2c120b" />
+    </linearGradient>
+    <linearGradient id="island" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff4df" />
+      <stop offset="50%" stop-color="#f6c98f" />
+      <stop offset="100%" stop-color="#8e4723" />
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="31" fill="url(#bg)" />
+  <circle cx="32" cy="18" r="7" fill="#fff7e8" opacity="0.9" />
+  <path
+    d="M15 32c3-7 10-11 17-11 8 0 14 4 17 11 5 1 8 4 8 8 0 7-7 11-25 11S7 47 7 40c0-4 3-7 8-8Z"
+    fill="url(#island)"
+  />
+  <path
+    d="M24 48c-1 4-3 7-7 10M33 49c0 5-2 8-5 11M42 48c1 4 3 7 7 10"
+    fill="none"
+    stroke="url(#island)"
+    stroke-linecap="round"
+    stroke-width="3"
+  />
+  <path
+    d="M22 24c3-4 6-6 10-6s7 2 10 6"
+    fill="none"
+    stroke="#fff2d8"
+    stroke-linecap="round"
+    stroke-width="2.5"
+    opacity="0.95"
+  />
+  <path
+    d="M21 30c3-3 6-4 11-4 6 0 10 1 12 4"
+    fill="none"
+    stroke="#6d3418"
+    stroke-opacity="0.45"
+    stroke-width="1.5"
+  />
+</svg>
